@@ -10,22 +10,30 @@ public class Main {
         File autoListe = new File("src/autos.csv");
         try{
             Scanner autoScanner = new Scanner(autoListe);
-
+autoScanner.nextLine();
         while(autoScanner.hasNextLine()){
             String line = autoScanner.nextLine();
             String[] daten = line.split(";");
-             String Farbe = daten[0];
-             String Marke = daten[1];
-             String Modell = daten[2];
+             String Farbe = daten[2];
+             String Marke = daten[0];
+             String Modell = daten[1];
 
-             Auto auto = new Auto(Marke, Modell);
-             autos.put(Marke, new ArrayList<Auto>());
+             Auto auto = new Auto(Modell, Farbe, Marke);
+             if (!autos.containsKey(Marke)){
+                 autos.put(Marke, new ArrayList<Auto>());
+             }
+             autos.get(Marke).add(auto);
         }
         autoScanner.close();
         }catch (FileNotFoundException e){
             System.out.println("datei konnte nicht gefunden werden!");
         }
 
-        System.out.println(autos.containsKey("Audi"));
+        ArrayList<Auto> audiAutos = autos.get("Audi");
+        if (audiAutos != null) {
+            for (Auto auto : audiAutos) {
+                System.out.println(auto);
+            }
+        }
     }
-}
+    }

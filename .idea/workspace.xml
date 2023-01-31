@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f57b5a70-895a-4e43-92a4-ccc2eb369d6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sewTestUebung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMapWordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/autos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testtext.txt" afterDir="false" />
+    <list default="true" id="f57b5a70-895a-4e43-92a4-ccc2eb369d6e" name="Changes" comment="bitte">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +75,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675109478841</updated>
-      <workItem from="1675109480164" duration="9154000" />
+      <workItem from="1675109480164" duration="11857000" />
     </task>
+    <task id="LOCAL-00001" summary="bitte">
+      <created>1675120260295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675120260295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bitte" />
+    <option name="LAST_COMMIT_MESSAGE" value="bitte" />
   </component>
 </project>
