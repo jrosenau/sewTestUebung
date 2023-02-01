@@ -29,10 +29,10 @@ autoScanner.nextLine();
             System.out.println("datei konnte nicht gefunden werden!");
         }
 
-        ArrayList<Auto> audiAutos = autos.get("Audi");
+        ArrayList<Auto> audiAutos = autos.get("Ford");
         if (audiAutos != null) {
             for (Auto auto : audiAutos) {
-                System.out.println(auto);
+                System.out.println(auto.toString());
             }
         }
     }

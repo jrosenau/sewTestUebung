@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f57b5a70-895a-4e43-92a4-ccc2eb369d6e" name="Changes" comment="bitte">
+      <change afterPath="$PROJECT_DIR$/src/FileWortZaehler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMapWortZaehler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WortVergleich.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last.edited.regexp": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xdyae\iCloudDrive\sewTestUebung\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HashMapWordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapWordCounter" />
+  <component name="RunManager" selected="Application.FileWortZaehler">
+    <configuration name="FileWortZaehler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileWortZaehler" />
+      <module name="sewTestUebung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapWortZaehler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapWortZaehler" />
       <module name="sewTestUebung" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,10 +70,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordChecker" />
+      <module name="sewTestUebung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WortVergleich" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WortVergleich" />
+      <module name="sewTestUebung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileWortZaehler" />
+        <item itemvalue="Application.HashMapWortZaehler" />
+        <item itemvalue="Application.WortVergleich" />
+        <item itemvalue="Application.WordChecker" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HashMapWordCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675109478841</updated>
       <workItem from="1675109480164" duration="11857000" />
+      <workItem from="1675189949298" duration="12210000" />
     </task>
     <task id="LOCAL-00001" summary="bitte">
       <created>1675120260295</created>
